@@ -8,8 +8,6 @@ enum Gender {
     MALE,
     NON_BINARY
 };
-
-
 class Guest {
 
 public:
@@ -46,9 +44,7 @@ public:
 
     Party()
     {
-
     };
-
     Party(string day1, string reason1, Guest guests1[])
     {
         day = day1;
@@ -69,9 +65,7 @@ public:
                 age += gues[i].age;
                 count++;
             }
-
         }
-
         avarageAge = age / (float)count;
         return avarageAge;
     }
@@ -87,9 +81,7 @@ public:
             {
                 i++;
             }
-
             number /= 10;
-
         } while (number >= 10);
 
         if (i >= 3)
@@ -102,7 +94,6 @@ public:
         }
     }
 };
-
 int main()
 {
     const int n = 5;
