@@ -53,7 +53,7 @@ public:
         float avarageAge;
         int count = 0;
 
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < 5; i++) // 5- number of people
         {
             if (gues[i].sex == sex2)
             {
