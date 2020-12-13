@@ -111,6 +111,10 @@ int main()
 
     cout << "Age: " << day.findAverageAge(friends, Gender::MALE) << endl;
     cout << "Is Lucky? " << day.isLuckyPhoneNumber(7777) << endl;
+    for (long int n = 0; n < 5; n++)
+    {
+        cout << "NAME " << friends[n].name << "ID " << friends[n].id << " PHONE NUMBER " << friends[n].phoneNumber << "CITY " << friends[n].city << endl;
+    }
 
     Guest temp;
 
