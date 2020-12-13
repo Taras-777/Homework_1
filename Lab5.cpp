@@ -29,7 +29,7 @@ public:
         phoneNumber = phoneNumber1;
         sex = sex1;
     }
-
+     ~Guest() {}
 };
 
 class Party {
