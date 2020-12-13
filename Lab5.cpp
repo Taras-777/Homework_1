@@ -92,9 +92,9 @@ public:
 };
 int main()
 {
-    const int n = 5;
+    const int lengthOfGuest = 5;
 
-    Guest friends[n] =
+    Guest friends[lengthOfGuest] =
     {
         Guest(5, "Taras", 28, "Boryslav", 380987896782, Gender::FEMALE),
         Guest(2, "Roman", 13, "Kyiv", 380504796878, Gender::MALE),
@@ -114,9 +114,9 @@ int main()
 
     Guest temp;
 
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i <lengthOfGuest; i++)
     {
-        for (int j = i + 1; j < n; j++)
+        for (int j = i + 1; j < lengthOfGuest; j++)
         {
             if (friends[j].id < friends[i].id)
             {
@@ -127,7 +127,7 @@ int main()
         }
     }
 
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < lengthOfGuest; i++)
     {
         cout << friends[i].name << endl;
     }
