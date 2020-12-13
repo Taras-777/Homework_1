@@ -49,7 +49,7 @@ public:
 
     float findAverageAge(Guest gues[5], Gender sex2)
     {
-        int age = 0;
+        int age = 1;
         float avarageAge;
         int count = 0;
 
