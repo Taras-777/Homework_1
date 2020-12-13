@@ -39,9 +39,7 @@ public:
     string reason;
     Guest guests[5];
 
-    Party()
-    {
-    };
+    Party(){};
     Party(string day1, string reason1, Guest guests1[])
     {
         day = day1;
@@ -90,6 +88,7 @@ public:
             return "False";
         }
     }
+    ~Party(){}
 };
 int main()
 {
