@@ -46,7 +46,7 @@ public:
         reason = reason1;
         *guests = *guests1;
     }
-
+   ~Party(){}
     float findAverageAge(Guest gues[5], Gender sex2)
     {
         int age = 1;
