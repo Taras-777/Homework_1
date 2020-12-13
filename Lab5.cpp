@@ -18,10 +18,7 @@ public:
     long int phoneNumber;
     Gender sex;
 
-    Guest()
-    {
-
-    };
+    Guest(){};
 
     Guest(int id1, string name1, int age1, string city1, long int phoneNumber1, Gender sex1)
     {
